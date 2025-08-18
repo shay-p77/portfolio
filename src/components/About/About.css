@@ -1,0 +1,28 @@
+.about {
+  padding: 6rem 2rem;
+  background-color: #f9f9f9;
+  color: #1e1f20;
+  background-image: url('../../assets/subtlebackground.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+
+.about__container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about__title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.about__text {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  color: #333;
+}

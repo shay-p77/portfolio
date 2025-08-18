@@ -1,0 +1,43 @@
+.header {
+  background-color: #292828;
+  color: rgb(255, 254, 254);
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom: #ffffff solid 1px; /* subtle border for separation */
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between; /* name left, nav right */
+  align-items: center; /* vertical centering */
+  max-width: 1280px; /* keeps it from stretching too wide */
+  margin: 0 auto; /* center the container on screen */
+}
+
+/* .header__avatar {
+  width: 50px;  
+  height: 50px;  
+  border-radius: 50%;  
+  object-fit: cover;  
+ } */
+
+.header__name {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.header__nav {
+  display: flex;
+  gap: 2rem; /* space between links */
+}
+
+.header__nav a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.header__nav a:hover {
+  color: #a9a9a9; /* highlight on hover */
+}
