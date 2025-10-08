@@ -1,0 +1,110 @@
+/* Contact Section */
+.contact {
+  width: 100%;
+  padding: 6rem 0;
+  /* background-color: #ffffff; */
+  color: #1e1f20;
+  display: flex;
+  justify-content: center;
+}
+
+.contact__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.contact__heading {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.contact__title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #fff;
+}
+
+.contact__subtitle {
+  font-size: 1rem;
+  color: #a7a3a3;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+/* Contact Card */
+.contact__card {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 600px;
+}
+
+.contact__info,
+.contact__socials {
+  flex: 1;
+}
+
+.contact__section-title {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+/* Info List */
+.contact__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.contact__item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.contact__icon {
+  width: 20px;
+  height: 20px;
+  color: #000;
+}
+
+/* Social Icons */
+.contact__icons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.contact__icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eaeaea;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.contact__icons a:hover {
+  background-color: #d3d3d3;
+  transform: scale(1.1);
+}
+
+.contact__icons .contact__icon {
+  color: #000;
+}

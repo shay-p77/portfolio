@@ -4,6 +4,7 @@
   padding-top: 25px;
   padding-bottom: 25px;
   border-bottom: #ffffff solid 1px; /* subtle border for separation */
+  font-family: "Roboto", sans-serif;
 }
 
 .header__container {

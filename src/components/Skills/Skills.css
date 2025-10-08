@@ -1,0 +1,70 @@
+.skills {
+  width: 100%;
+  padding: 6rem 0;
+  /* background-color: #f9f9f9; */
+  color: #1e1f20;
+}
+
+.skills__heading {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.skills__container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.skills__card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  min-width: 220px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* centers icon + title horizontally */
+}
+
+.skills__title {
+  text-align: center;
+  margin-top: 0.5rem; /* closer to the icon */
+  margin-bottom: 1rem; /* spacing before list */
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.skills__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap; /* allows items to wrap to next line */
+  gap: 0.75rem; /* space between items */
+  justify-content: center;
+}
+
+.skills__item {
+  background-color: #f0f0f0; /* light grey background */
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  color: #1e1f20;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, background-color 0.2s ease;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.skills__item:hover {
+  transform: translateY(-2px);
+  background-color: #e0e0e0; /* slightly darker on hover */
+}

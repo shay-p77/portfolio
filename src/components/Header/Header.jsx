@@ -22,6 +22,14 @@ function Header() {
           <a href="#contact" className="header__nav-link">
             Contact
           </a>
+          <a
+            href="/ShayPaley-resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="resume-button"
+          >
+            Resume
+          </a>
         </nav>
       </div>
     </header>

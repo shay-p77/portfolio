@@ -12,13 +12,15 @@
   font-size: 3rem;
   font-weight: 700;
   margin-bottom: 1rem;
-}
+  font-family: "Montserrat", sans-serif;
+ }
 
 .hero__subtitle {
   font-size: 1.5rem;
   font-weight: 400;
   color: #a9a9a9;
   margin-bottom: 1.5rem;
+  font-family: "Roboto", sans-serif;
 }
 
 .hero__description {
@@ -27,6 +29,7 @@
   margin: 0 auto 2rem auto;
   line-height: 1.6;
   color: #d1d1d1;
+  font-family: "Roboto", sans-serif;
 }
 
 .hero__buttons {
@@ -34,6 +37,7 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 1.5rem;
+  font-family: "Roboto", sans-serif;
 }
 
 .hero__button {

@@ -1,13 +1,13 @@
-import  Header  from "../Header/Header";
-  import  Hero  from "../Hero/Hero";
-   import  About  from "../About/About";
-//  import  Skills  from "../Skills/Skills";
-//  import  Projects  from "../Projects/Projects";
-//  import  Contact  from "../Contact/Contact";
-//  import  Footer  from "../Footer/Footer";
+import Header from "../Header/Header";
+import Hero from "../Hero/Hero";
+import About from "../About/About";
+import Skills from "../Skills/Skills";
+import Projects from "../Projects/Projects";
+import Contact from "../Contact/Contact";
+import Footer from "../Footer/Footer";
 import "../App/App.css";
 
- function App() {
+function App() {
   return (
     <div>
       <Header />
@@ -16,7 +16,7 @@ import "../App/App.css";
         <section id="about">
           <About />
         </section>
-        {/* <section id="skills">
+        <section id="skills">
           <Skills />
         </section>
         <section id="projects">
@@ -24,11 +24,11 @@ import "../App/App.css";
         </section>
         <section id="contact">
           <Contact />
-        </section> */}
+        </section>
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
 
-export default App
+export default App;

@@ -4,17 +4,28 @@ import "./About.css";
 function About() {
   return (
     <section className="about" id="about">
+                <h1 className="about__heading">About Me</h1>
+
       <div className="about__container">
-        <h2 className="about__title">About Me</h2>
-        <p className="about__text">
-          I’m passionate about crafting web experiences that are both intuitive and visually engaging. I enjoy turning ideas into interactive interfaces while keeping the user’s experience front and center.
-        </p>
-        <p className="about__text">
-          Beyond writing code, I focus on **problem-solving creatively**, experimenting with new UI patterns, and continuously learning ways to make applications more accessible and efficient.
-        </p>
-        <p className="about__text">
-          When I’m not working on projects, I like exploring design trends, thinking about how to simplify complex interactions, and finding inspiration in everyday experiences to improve the digital spaces I build.
-        </p>
+        <div className="about__left">
+          <h2 className="about__title">Front-End Developer</h2>
+          <p className="about__text">
+            I’m a passionate front-end developer with expertise in React and modern JavaScript. 
+            I focus on creating responsive, accessible, and visually engaging interfaces 
+            that provide intuitive user experiences. I value writing clean, maintainable code 
+            and following best practices to build polished web applications.
+          </p>
+        </div>
+        <div className="about__right">
+          <h3 className="about__subtitle">What I Do</h3>
+          <ul className="about__list">
+            <li>Frontend Development with React & Modern JavaScript</li>
+            <li>Responsive Design & Accessibility Implementation</li>
+            <li>UI/UX-focused Component Design</li>
+            <li>Version Control with Git</li>
+            <li>Project Organization & Best Practices</li>
+          </ul>
+        </div>
       </div>
     </section>
   );
