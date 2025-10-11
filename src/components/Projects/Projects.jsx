@@ -31,6 +31,7 @@ function Projects() {
       title: "Around the U.S.",
       image: aroundUsImage,
       github: "https://github.com/shay-p77/se_project_aroundtheus.git",
+      live: "https://aroundthe-us.netlify.app/",
       description:
         "Created an interactive, Instagram-style web app with user profiles, image cards, like and delete functionality, and modals. Designed the UI with HTML/CSS, then progressively added JavaScript features like API calls, form validation, and dynamic content. This was my first large-scale JavaScript project, and it greatly boosted my confidence in front-end development.",
       skills: ["HTML", "CSS", "JavaScript", "Rest APIs"],
