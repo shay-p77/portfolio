@@ -39,6 +39,7 @@ function Projects() {
       title: "Coffee Shop Website",
       image: coffeeShopImage,
       github: "https://github.com/shay-p77/se_project_coffeeshop.git",
+      live: "https://triplepeakscoffee.netlify.app/",
       description:
         "Built a responsive coffee shop website based on a layout specification. Developed a navigation bar, integrated YouTube videos using iframe, and implemented a working contact form for booking tables. Strengthened understanding of semantic HTML and structured layouts.",
       skills: ["HTML", "CSS"],
