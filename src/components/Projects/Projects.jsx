@@ -22,6 +22,7 @@ function Projects() {
       title: "WTWR (What to Wear)",
       image: wtwrImage,
       github: "https://github.com/shay-p77/se_project_react.git",
+      live: "https://wtwr-weather.netlify.app/",
       description:
         "A full-stack weather-based clothing recommendation app. Built with React and Express, the app shows outfit suggestions based on live weather data. Includes user authentication, profile management, and the ability to add or delete clothing items via modals. This was my first full React and back-end integration project using MongoDB.",
       skills: ["React", "Node.js", "Express", "MongoDB", "JavaScript", "CSS"],
