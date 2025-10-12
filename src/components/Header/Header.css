@@ -42,3 +42,39 @@
 .header__nav a:hover {
   color: #a9a9a9; /* highlight on hover */
 }
+
+/* hamburger hidden by default (desktop) */
+.header__toggle {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .header {
+    margin-left: 15px;
+  }
+
+  .header__toggle {
+    display: block; /* show hamburger */
+    background-color: transparent;
+    border: none;
+    color: #fff;
+  }
+
+  .header__nav {
+    display: none; /* hide links initially */
+    flex-direction: column;
+    gap: 15px;
+    background: #292828;
+    position: absolute;
+    top: 70px; /* just below header */
+    right: 0;
+    width: 200px;
+    padding: 20px;
+    border: 1px solid #444;
+  }
+
+  /* Show nav when "active" */
+  .header__nav.active {
+    display: flex;
+  }
+}

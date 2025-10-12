@@ -68,3 +68,46 @@
   transform: translateY(-2px);
   background-color: #e0e0e0; /* slightly darker on hover */
 }
+
+@media (max-width: 767px) {
+  .skills {
+    padding: 4rem 20px; /* top/bottom + horizontal padding */
+  }
+
+  .skills__heading {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+
+  .skills__container {
+    flex-direction: column; /* stack cards vertically */
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .skills__card {
+    width: 100%; /* take full container width */
+    max-width: 350px; /* prevents stretching too far on larger phones */
+    min-width: 0; /* allow shrinking below previous min-width */
+    padding: 1.5rem;
+    box-sizing: border-box; /* ensures padding doesn’t add extra width */
+  }
+
+  .skills__title {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .skills__list {
+    flex-wrap: wrap; /* wrap skill items */
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  .skills__item {
+    font-size: 0.85rem; /* smaller for narrow screens */
+    padding: 0.3rem 0.6rem;
+  }
+}

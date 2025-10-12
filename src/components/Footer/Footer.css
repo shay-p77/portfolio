@@ -1,12 +1,24 @@
 .footer {
-   padding: 2rem 1rem;
-  background-color: #1e1f20;
+  width: 100%;
+  padding: 2rem 20px; /* horizontal padding like other sections */
   color: #fff;
   text-align: center;
   font-family: "Roboto", sans-serif;
+  box-sizing: border-box; /* ensures padding is included in width */
 }
 
 .footer__text {
   margin-bottom: 0.5rem;
   font-size: 0.9rem;
+}
+
+@media (max-width: 767px) {
+  .footer {
+    padding: 2rem 20px; /* ensure same horizontal padding on mobile */
+  }
+
+  .footer__text {
+    font-size: 0.85rem;
+    margin-bottom: 0.5rem;
+  }
 }

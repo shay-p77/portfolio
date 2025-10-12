@@ -108,3 +108,55 @@
 .contact__icons .contact__icon {
   color: #000;
 }
+
+@media (max-width: 767px) {
+  .contact {
+    padding: 4rem 20px; /* top/bottom + horizontal padding */
+    display: flex;
+    flex-direction: column; /* stack heading + card vertically */
+    align-items: center; /* center horizontally */
+    text-align: center; /* center headings and subtitle */
+  }
+
+  .contact__container {
+    width: 100%;
+    max-width: 350px; /* same as card max-width */
+    margin: 0 auto; /* center container */
+    padding: 0; /* horizontal padding already on section */
+  }
+
+  .contact__card {
+    width: 100%; /* fill container width */
+    max-width: 350px;
+    flex-direction: column; /* stack info + socials vertically */
+    gap: 1.5rem;
+    padding: 1.5rem;
+    box-sizing: border-box;
+  }
+
+  .contact__title {
+    font-size: 1.5rem;
+  }
+
+  .contact__subtitle {
+    font-size: 0.9rem;
+  }
+
+  .contact__section-title {
+    font-size: 1.1rem;
+  }
+
+  .contact__item {
+    font-size: 0.9rem;
+  }
+
+  .contact__icons a {
+    width: 35px;
+    height: 35px;
+  }
+
+  .contact__icons .contact__icon {
+    width: 18px;
+    height: 18px;
+  }
+}

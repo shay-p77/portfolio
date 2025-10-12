@@ -13,7 +13,7 @@
   font-weight: 700;
   margin-bottom: 1rem;
   font-family: "Montserrat", sans-serif;
- }
+}
 
 .hero__subtitle {
   font-size: 1.5rem;
@@ -54,4 +54,35 @@
 .hero__button:hover {
   background: #a9a9a9;
   color: #1e1f20;
+}
+
+/* --- Responsive tweaks --- */
+@media (max-width: 767px) {
+  .hero {
+    padding: 60px 20px 40px 20px; /* top, right, bottom, left */
+    justify-content: flex-start; /* keeps it slightly higher vertically */
+    min-height: auto; /* remove 90vh forcing huge space */
+  }
+
+  .hero__title {
+    font-size: 2.2rem; /* shrink for phones */
+  }
+
+  .hero__subtitle {
+    font-size: 1.2rem;
+  }
+
+  .hero__description {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .hero__buttons {
+    gap: 1rem;
+  }
+
+  .hero__button {
+    font-size: 1rem;
+    padding: 0.6rem 1.2rem;
+  }
 }
