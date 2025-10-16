@@ -115,3 +115,40 @@
     padding-left: 1rem; /* small indent for bullets */
   }
 }
+
+
+/* Extra tweaks for small phones */
+@media (max-width: 480px) {
+  .about {
+    padding: 3rem 0; /* reduce vertical padding */
+  }
+
+  .about__container {
+    padding: 0 15px; /* tighter side padding */
+    gap: 1.5rem; /* less space between sections */
+  }
+
+  .about__heading {
+    font-size: 1.8rem; /* smaller heading */
+    margin-bottom: 2rem;
+  }
+
+  .about__title {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+
+  .about__subtitle {
+    font-size: 1.2rem;
+  }
+
+  .about__text,
+  .about__list {
+    font-size: 0.95rem; /* slightly smaller text */
+    line-height: 1.5;
+  }
+
+  .about__list {
+    padding-left: 0.8rem; /* tighter bullets */
+  }
+}

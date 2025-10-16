@@ -3,22 +3,43 @@
 }
 
 /* index.css or global styles */
+/* Global containment + reset */
+html,
 body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden; /* prevent horizontal scrolling */
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
+/* Make all elements respect box-sizing */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* Make sure images don’t overflow */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
 
 @font-face {
   font-family: "Montserrat";
-  src: url("./vendor/fonts/Montserrat/Montserrat-Regular.ttf") format("truetype");
+  src: url("./vendor/fonts/Montserrat/Montserrat-Regular.ttf")
+    format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Montserrat";
-  src: url("./vendor/fonts/Montserrat/Montserrat-SemiBold.ttf") format("truetype");
+  src: url("./vendor/fonts/Montserrat/Montserrat-SemiBold.ttf")
+    format("truetype");
   font-weight: 600;
   font-style: normal;
 }
