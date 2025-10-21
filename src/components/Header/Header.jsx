@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Header.css";
 import { Menu, X } from "lucide-react"; // Menu = hamburger, X = close
+import resumePDF from "/Shay-Developer-Resume IL .pdf";
 
 // import avatar from "../../assets/me.jpeg";
 
@@ -57,7 +58,7 @@ function Header() {
             Contact
           </a>
           <a
-            href="/ShayPaley-resume.pdf"
+            href={resumePDF}
             target="_blank"
             rel="noopener noreferrer"
             className="resume-button"
